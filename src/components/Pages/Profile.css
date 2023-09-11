@@ -1,0 +1,387 @@
+.container8{
+    /* border: 1px solid red ; */
+    padding: 15px 40px ;
+    width: 85% ;
+    margin: 10px auto ;
+}
+.img-ctrl9{
+
+    width: 90px ;
+    height: 90px ;
+    border-radius: 50%;
+}
+
+.img-ctrl13{
+
+    width: 60px ;
+    height: 60px ;
+    border-radius: 50%;
+
+}
+.desktop{
+    display: block;
+}
+
+.mobile{
+    display: none ;
+}
+ 
+.username-ctrl{
+    margin-top: 20px ;
+    font-size: 22px ;
+    font-weight: bold ;
+}
+
+.name-ctrl{
+    margin-top: 6px ;
+    font-size: 18px ;
+    font-weight: 630 ;
+}
+
+.about-ctrl{
+    margin-top: 6px ;
+    font-size: 18px ;
+    font-weight: 400;
+}
+
+.portfolio-ctrl{
+    margin-top: 6px ;
+    font-weight: 400 ;
+    font-size: 18px ;
+}
+
+.text-color-ctrl{
+    color: #2874F0;
+}
+
+.right-upper-ctrl{
+    padding: 0px 110px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.post-ctrl{
+    border-right: 1px solid rgb(163, 157, 157);
+    text-align: center ;
+
+}
+.follower-ctrl{
+
+    border-right: 1px solid rgb(163, 157, 157);
+    text-align: center ;
+
+}
+
+.following-ctrl{
+
+    /* border-right: 1px solid rgb(163, 157, 157); */
+    text-align: center ;
+
+}
+
+.font-ctrl{
+    font-size: 24px;
+    font-weight: 700 ;
+}
+
+.test-ctrl{
+    font-size: 20px ;
+    font-weight: 600 ;
+}
+.btn-ctrl10{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red ; */
+    margin-top: 130px;
+}
+.edit-ctrl{
+    margin-right: 12px;
+    padding: 10px 30px ;
+    font-size: 20px ;
+}
+
+.upload-ctrl{
+    font-size: 20px ;
+    margin-right: 12px;
+    padding: 10px 30px ;
+}
+
+.gall-img-ctrl{
+    width: 350px ;
+    height: 380px ;
+}
+
+.img-ctrl12{
+    width: 250px ;
+    height: 350px ;
+}
+.small-container{
+    display: flex ;
+}
+.right-modal{
+    margin-left: 12px ;
+}
+
+.right-modal-name{
+    font-size: 18px ;
+    font-weight: bold
+}
+
+.right-modal-location{
+    font-size: 16px ;
+    font-weight: 600
+}
+.time-ctrl{
+    margin-top: 12px ;
+}
+
+.about-post-ctrl{
+    margin-top: 18px ;
+    font-size: 14px ;
+    font-weight: 700 ;
+}
+
+.icon-ctrl14{
+    display: flex;
+    font-size: 18px ;
+    margin-top: 22px ;
+}
+
+.like-ctrl15{
+    margin-right: 12px;
+    font-size: 22px ;
+}
+.comment-ctrl15{
+    margin-right: 12px;
+    font-size: 22px ;
+}
+.send-ctrl15{
+    margin-right: 12px;
+    font-size: 22px ;
+}
+.like-ctrl16{
+    margin-top: 14px ;
+    font-weight: 600 ;
+    font-size: 18px ;
+}
+
+.ellipsis-ctrl{
+    font-size: 36px ;
+    display: flex ;
+    margin-left: 60px ;
+    cursor: pointer;
+    
+}
+
+.upload-box{
+    height: 370px;
+    width: 340px;
+    border: 4px dotted gray;
+    border-radius: 10px;
+    position: relative;
+    /* border: 2px solid red ; */
+  }
+  .dropZoneOverlay, .FileUpload {
+    width: 283px;
+    height: 71px;
+    /* border: 2px solid yellow ; */
+  }
+  
+  .dropZoneOverlay {
+    font-family: cursive;
+    color: #7066fb;
+  position: absolute;
+    top:90px;
+    left: 23px;
+    text-align: center;
+    /* border: 2px solid green ; */
+    
+  }
+ 
+  .FileUpload {
+    opacity: 0;
+    top:90px;
+    left: 23px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .form-ctrl19{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+  }
+
+  .custom-btn{
+    padding: 0.6rem;
+    border-radius: 4px;
+  }
+  .custom-btn-white{
+    border: 2px solid #e5e7e9;
+    background-color: #fdfeff;
+    color: #000;
+    padding: 14px;
+  }
+  .custom-btn-pink{
+    border: 2px solid #ed2a7e;
+    background-color: #ed2a7e;
+    color: #fff;
+    padding: 14px;
+    width: 160px;
+  }
+
+@media only screen and (max-width: 453px)
+{
+
+    .container8{
+        /* border: 1px solid red ; */
+        padding: 10px 10px ;
+        width: 98vw ;
+        /* margin: 10px auto ; */
+    }
+    .img-ctrl9{
+    
+        width: 80px ;
+        height: 80px ;
+        border-radius: 50%;
+    }
+
+    .res-ctrl1{
+        /* margin-left: 5px; */
+    }
+
+    .res-ctrl2{
+        /* display: flex ; */
+        /* border: 2px solid red ; */
+    }
+
+    .about-ctrl{
+        margin-top: 15px ;
+        font-weight: 400;
+    }
+
+    .right-upper-ctrl{
+        padding: 0px 40px ;
+        display: flex;
+        justify-content: space-between;
+        /* margin-top: 30px;; */
+    
+    }
+
+    .btn-ctrl10{
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid red ; */
+        margin-top: 40px;
+    }
+
+    .desktop{
+        display: none;
+    }
+    
+    .mobile{
+        display: block ;
+    }
+
+    .gall-img-ctrl{
+        width: 330px ;
+        height: 350px ;
+        margin-bottom: 10px ;
+    }
+
+    .gall-ctrl{
+        display: flex ;
+    }
+    .username-ctrl{
+        margin-top: 15px ;
+        font-size: 20px ;
+        font-weight: bold ;
+    }
+    
+    .name-ctrl{
+        margin-top: 6px ;
+        font-size: 18px ;
+        font-weight: 630 ;
+    }
+    
+    .about-ctrl{
+        margin-top: 6px ;
+        font-size: 16px ;
+        font-weight: 400;
+    }
+     
+    .portfolio-ctrl{
+        margin-top: 6px ;
+        font-weight: 400 ;
+        font-size: 16px ;
+    }
+
+    .edit-ctrl{
+        margin-right: 15px;
+        padding: 5px 20px ;
+        font-size: 16px ;
+    }
+    
+    .upload-ctrl{
+        font-size: 16px ;
+        /* margin-right: 12px; */
+        padding: 5px 20px ;
+    }
+
+    .img-ctrl12{
+        width: 250px ;
+        height: 350px ;
+    }
+
+    .car-ctrl{
+        margin-bottom: 20px;
+    }
+
+    .container20{
+        margin-bottom: 20px ;
+    }
+
+    .font-ctrl{
+        font-size: 20px;
+        font-weight: 700 ;
+    }
+    
+    .test-ctrl{
+        font-size: 15px ;
+        font-weight: 600 ;
+    }
+
+    .post-ctrl{
+        border-right: 1px solid rgb(163, 157, 157);
+        text-align: center ;
+       
+    
+    }
+    .follower-ctrl{
+    
+        border-right: 1px solid rgb(163, 157, 157);
+        text-align: center ;
+        margin-left: 15px;
+    
+    }
+    
+    .following-ctrl{
+    
+        /* border-right: 1px solid rgb(163, 157, 157); */
+        text-align: center ;
+        margin-left: 15px;
+    
+    }
+
+ 
+
+
+    
+
+    
+  
+
+}
+
+
